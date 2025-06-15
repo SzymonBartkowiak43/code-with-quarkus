@@ -10,6 +10,7 @@ repositories {
 
 dependencies {
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
+    implementation("io.quarkus:quarkus-awt:3.23.2")
     implementation 'io.quarkiverse.pdfbox:quarkus-pdfbox:1.1.0'
     implementation 'io.quarkus:quarkus-rest-kotlin-serialization'
     implementation 'io.quarkus:quarkus-arc'
